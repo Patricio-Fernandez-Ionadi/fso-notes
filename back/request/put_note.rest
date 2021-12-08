@@ -1,0 +1,7 @@
+PUT http://localhost:3001/api/notes/61abd491aff18df28a905910
+Content-Type: application/json
+
+{
+  "content": "Mongo sigue siendo utilizado pero modificamos la nota por cuarta vez",
+  "important" : true
+}

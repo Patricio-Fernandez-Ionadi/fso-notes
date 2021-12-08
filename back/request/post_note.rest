@@ -1,0 +1,26 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+  "content": "Nueva nota impfal",
+  "userId": "61ae0129066d5d64381b86cf"
+}
+
+###
+
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+  "userId": "61ae0129066d5d64381b86cf"}
+
+###
+
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxYWUwMTI5MDY2ZDVkNjQzODFiODZjZiIsInVzZXJuYW1lIjoiUG9rZXIiLCJpYXQiOjE2Mzg4MDY2MzYsImV4cCI6MTYzOTQxMTQzNn0.NMBm56tncnjxeH59bifcIMPFESa7-o3lHJjNzxPWYo4
+
+{
+  "content": "usando middleware userExtractor",
+  "important" : true
+}
